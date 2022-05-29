@@ -8,5 +8,4 @@
 ![4](https://user-images.githubusercontent.com/55922843/170889053-03e7aa2e-a8dd-462e-bcc8-907a6e52e268.png)
 
 ### 4Lab 2 VARIANT Screens 
-
-![1](https://user-images.githubusercontent.com/55922843/170890523-e9587b2f-75ee-45e0-bce2-24b264d81cd3.png)
+![1](https://user-images.githubusercontent.com/55922843/170890583-64d895a7-f55d-46ac-947a-2ccb6e8b4887.png)
