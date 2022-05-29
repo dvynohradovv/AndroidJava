@@ -1,0 +1,3 @@
+rootProject.name = "4LAB"
+include ':app'
+include ':app:livebooking'

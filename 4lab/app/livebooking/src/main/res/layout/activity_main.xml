@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/car"
+            android:layout_width="204dp"
+            android:layout_height="155dp"
+            android:baselineAlignBottom="false"
+            android:clickable="true"
+            android:fadingEdge="horizontal"
+            android:padding="0dp"
+            android:src="@drawable/car" />
+
+        <ImageButton
+            android:id="@+id/bycycle"
+            android:layout_width="204dp"
+            android:layout_height="155dp"
+            android:layout_below="@id/car"
+            android:fadingEdge="horizontal"
+            android:padding="0dp"
+            android:src="@drawable/bycycle" />
+
+        <ImageButton
+            android:id="@+id/shop"
+            android:layout_width="209dp"
+            android:layout_height="155dp"
+            android:layout_toRightOf="@id/car"
+            android:fadingEdge="horizontal"
+            android:padding="0dp"
+            android:src="@drawable/shop" />
+
+        <ImageButton
+            android:id="@+id/faces"
+            android:layout_width="209dp"
+            android:layout_height="155dp"
+            android:layout_below="@id/shop"
+            android:layout_toRightOf="@id/bycycle"
+            android:fadingEdge="horizontal"
+            android:padding="0dp"
+            android:src="@drawable/faces" />
+
+        <ImageButton
+            android:id="@+id/food"
+            android:layout_width="204dp"
+            android:layout_height="155dp"
+            android:layout_below="@id/bycycle"
+            android:fadingEdge="horizontal"
+            android:padding="0dp"
+            android:src="@drawable/food" />
+
+        <ImageButton
+            android:id="@+id/tree"
+            android:layout_width="209dp"
+            android:layout_height="155dp"
+            android:layout_below="@id/faces"
+            android:layout_toRightOf="@id/bycycle"
+            android:fadingEdge="horizontal"
+            android:padding="0dp"
+            android:src="@drawable/tree" />
+
+        <ImageButton
+            android:id="@+id/man"
+            android:layout_width="204dp"
+            android:layout_height="155dp"
+            android:layout_below="@id/food"
+            android:fadingEdge="horizontal"
+            android:padding="0dp"
+            android:src="@drawable/man" />
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="209dp"
+            android:layout_height="155dp"
+            android:layout_below="@id/tree"
+            android:layout_toRightOf="@id/man"
+            android:fadingEdge="horizontal"
+            android:padding="0dp"
+            android:src="@drawable/point" />
+
+    </RelativeLayout>
+</RelativeLayout>
