@@ -7,5 +7,6 @@
 ![3](https://user-images.githubusercontent.com/55922843/170889047-41908226-1458-468a-a1da-5f925f9a736d.png)
 ![4](https://user-images.githubusercontent.com/55922843/170889053-03e7aa2e-a8dd-462e-bcc8-907a6e52e268.png)
 
-### 4Lab Screens
-![1](https://user-images.githubusercontent.com/55922843/170889062-f5ee9d50-884b-47f4-8946-a9d6a189427a.png)
+### 4Lab 2 VARIANT Screens 
+
+![1](https://user-images.githubusercontent.com/55922843/170890523-e9587b2f-75ee-45e0-bce2-24b264d81cd3.png)
