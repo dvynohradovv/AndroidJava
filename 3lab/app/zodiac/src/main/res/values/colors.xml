@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#110408</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="zodiactext">#ED0101</color>
+    <color name="zodiacbutton">#949D97</color>
+    <color name="listmaincolor">#c6a2fc</color>
+    <color name="listbuttoncolor">#b694e8</color>
+    <color name="listbuttontextcolor">#e5d4f9</color>
+    <color name="listbuttoncheckcolor">#6aa1fc</color>
+    <color name="chusenbuttmain">#8950ff</color>
+    <color name="chusenbutttext">#ffd700</color>
+</resources>

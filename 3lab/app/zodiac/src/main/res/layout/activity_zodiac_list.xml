@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/listmaincolor"
+    tools:context=".ZodiacList">
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="96dp"
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/zodcomp_button"
+            android:layout_width="83dp"
+            android:layout_height="93dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/listbuttoncolor"
+            android:padding="5dp"
+            android:text="Zodiac Comp."
+            android:textColor="@color/listbuttontextcolor"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/namcomp_button"
+            android:layout_width="83dp"
+            android:layout_height="93dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/listbuttoncolor"
+            android:padding="5dp"
+            android:text="Name Comp."
+            android:textColor="@color/listbuttontextcolor"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/datcomp_button"
+            android:layout_width="83dp"
+            android:layout_height="93dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/listbuttoncolor"
+            android:padding="5dp"
+            android:text="Date Comp."
+            android:textColor="@color/listbuttontextcolor"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/lovcomp_button"
+            android:layout_width="83dp"
+            android:layout_height="93dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/listbuttoncolor"
+            android:padding="5dp"
+            android:text="Love Comp."
+            android:textColor="@color/listbuttontextcolor"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:weightSum="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/info_button"
+            android:layout_width="83dp"
+            android:layout_height="93dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/listbuttoncolor"
+            android:insetBottom="0dp"
+            android:padding="5dp"
+            android:text="Info"
+            android:textColor="@color/listbuttontextcolor"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/love_button"
+            android:layout_width="83dp"
+            android:layout_height="93dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/listbuttoncolor"
+            android:insetBottom="0dp"
+            android:padding="5dp"
+            android:text="Love"
+            android:textColor="@color/listbuttontextcolor"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/handlines_button"
+            android:layout_width="83dp"
+            android:layout_height="93dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/listbuttoncolor"
+            android:insetBottom="0dp"
+            android:padding="5dp"
+            android:text="Hand Lines"
+            android:textColor="@color/listbuttontextcolor"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/fulltest_button"
+            android:layout_width="83dp"
+            android:layout_height="93dp"
+            android:layout_margin="2dp"
+            android:backgroundTint="@color/listbuttoncolor"
+            android:insetBottom="0dp"
+            android:padding="5dp"
+            android:text="Full Test"
+            android:textColor="@color/listbuttontextcolor"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="409dp"
+        android:layout_height="334dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/Pisces"
+            android:layout_width="136dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/Sagittarius"
+            android:layout_toRightOf="@id/Aquarius"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="\u2653
+            Pisces
+            02/19 - 03/20"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:verticalScrollbarPosition="defaultPosition" />
+
+        <Button
+            android:id="@+id/Aquarius"
+            android:layout_width="136dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/Scorpio"
+            android:layout_toRightOf="@id/Capricorn"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="\u2652
+            Aquarius
+            10/23 - 11/21"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:verticalScrollbarPosition="defaultPosition" />
+
+        <Button
+            android:id="@+id/Capricorn"
+            android:layout_width="136dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/Libra"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="\u2651
+            Capricorn
+            12/22 - 01/19"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:verticalScrollbarPosition="defaultPosition" />
+
+        <Button
+            android:id="@+id/Sagittarius"
+            android:layout_width="136dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/Virgo"
+            android:layout_toRightOf="@id/Scorpio"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="\u2650
+            Sagittarius
+            11/22 - 12/21"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:verticalScrollbarPosition="defaultPosition" />
+
+        <Button
+            android:id="@+id/Scorpio"
+            android:layout_width="136dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/leo"
+            android:layout_toRightOf="@id/Libra"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="\u264f
+            Scorpio
+            10/23 - 11/21"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:verticalScrollbarPosition="defaultPosition" />
+
+        <Button
+            android:id="@+id/Libra"
+            android:layout_width="136dp"
+            android:layout_height="111dp"
+            android:layout_below="@id/Cancer"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="\u264E
+            Libra
+            09/23 - 10/22"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:verticalScrollbarPosition="defaultPosition" />
+
+        <Button
+            android:id="@+id/Virgo"
+            android:layout_width="136dp"
+            android:layout_height="111dp"
+            android:layout_toRightOf="@id/leo"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="\u264D
+            Virgo
+            08/23 - 09/22"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:verticalScrollbarPosition="defaultPosition" />
+
+        <Button
+            android:id="@+id/leo"
+            android:layout_width="136dp"
+            android:layout_height="111dp"
+            android:layout_toRightOf="@id/Cancer"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:insetBottom="0dp"
+            android:text="\u264C
+            Leo
+            07/23 - 08/22"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:verticalScrollbarPosition="defaultPosition" />
+
+        <Button
+            android:id="@+id/Cancer"
+            android:layout_width="136dp"
+            android:layout_height="111dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="\u264B
+            Cancer 06/21 - 07/22"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:verticalScrollbarPosition="defaultPosition" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="405dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@color/listbuttoncheckcolor"
+        android:text="Check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
